@@ -5,12 +5,24 @@
     font-family: 'Shadows Into Light', cursive ;
 }
 
-.hero{
-    background-image: url("image.jpg");
+body{
+    background-color: rgb(240, 223, 191);
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
+}
+
+span{
+    color: #2D5C4C;
+}
+
+.aboutlogo{
+    font-size: 35px;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 nav{
@@ -30,55 +42,23 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: #2D5C4C;
     font-size: 18px;
 }
 
-
-.bold{
-    font-weight: bold;
+.about{
+    padding-top: 5rem;
+    max-width: 30rem;
+    display: block;
+    float: left;
 }
 
-.logo{
-    font-size: 35px;
+.para{
+    display: flex;
+    margin: auto;
+    margin: 60px ;
 }
 
-span{
-    color: white;
-}
-
-h1{
-    font-size: 55px;;
-}
-
-h2{
-    color: #2D5C4C;
-}
-
-h3{
-    margin-bottom: 15px;;
-}
-
-.socials{
-     display: inline-block;
-     margin-left: 12rem;
-}
-
-.socials a{
-    margin: 1px 6px;
-}
-
-.intro{
-    display: inline-block;
-    width: 550px;
-    margin-left: 33rem;
-    margin-top: 16rem;
-}
-
-.fa-facebook-f{
-    color:  #4267B2;
-}
-
-.fa-twitter{
-    color: #1DA1F2;
+.para2{
+    margin: 1px 35px;
 }
