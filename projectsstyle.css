@@ -48,8 +48,8 @@ nav ul li a{
 }
 
 .about{
-    padding-top: 10rem;
-    max-width: 30rem;
+    padding-top: 9rem;
+    max-width: 40%;
     display: block;
     float: left;
 }
@@ -57,6 +57,6 @@ nav ul li a{
 .award{
     float: right;
     padding-top: 200px;
-    margin-right: 29rem;
-    margin-top: 4rem;
+    padding-right: 10rem;
+    max-width: 60rem;
 }

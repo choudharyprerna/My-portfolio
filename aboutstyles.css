@@ -48,7 +48,7 @@ nav ul li a{
 
 .about{
     padding-top: 5rem;
-    max-width: 30rem;
+    max-width: 35%;
     display: block;
     float: left;
 }
@@ -57,6 +57,7 @@ nav ul li a{
     display: flex;
     margin: auto;
     margin: 60px ;
+    max-width: 60rem;
 }
 
 .para2{
