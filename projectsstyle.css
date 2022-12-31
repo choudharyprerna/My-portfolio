@@ -53,3 +53,10 @@ nav ul li a{
     display: block;
     float: left;
 }
+
+.award{
+    float: right;
+    padding-top: 200px;
+    margin-right: 29rem;
+    margin-top: 4rem;
+}
