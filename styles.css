@@ -82,6 +82,16 @@ h3{
         display: block;
         width: 550px;
         margin-left: 33rem;
-        margin-top: 15rem;
+        margin-top: 12rem;
     }
+}
+
+.button{
+    background-color: #2D5C4C;
+color: white;
+padding: .3rem .6rem;
+margin: 40px 2px;
+}
+button:active{
+    background-color: black;
 }

@@ -15,7 +15,7 @@ body{
 }
 
 span{
-    color: #2D5C4C;
+   color: #2D5C4C;
 }
 
 .skillslogo{
@@ -49,40 +49,162 @@ nav ul li a{
 
 .about{
     padding-top: 10rem;
-    max-width: 35%;
+    max-width: 42%;
     display: block;
-    float: left;
-}
-
-.icons{
-    display: grid;
     float: right;
-    position: fixed;
-    right: 11rem;
-    top: 13rem;
-    max-width: 25%;
 }
 
-.fa-pencil{
-    padding-top: 20px ;
+html{
+    display: grid;
+    height: 100%;
+    place-items: center;
 }
 
-.fa-c{
-    padding-top: 20px;
+.skills-bar{
+    width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 30px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
 
-.fa-java{
-    padding-top: 20px ;
+.skills-bar .bar{
+    margin: 20px 0;
 }
 
-.fa-square-js{
-    padding-top: 20px ;
+.skills-bar .bar:first-child{
+    margin-top: 0px;
 }
 
-.fa-html5{
-    padding-top: 20px ;
+.skills-bar .bar .info{
+    margin-bottom: 5px;
 }
 
-.fa-css3-alt{
-    padding-top: 20px ;
+.skills-bar .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.skills-bar .bar .progress-line{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background-color: #f0f0f0;
+    box-shadow: inset 0px 1px 1px rgbs(0,0,0,0.05),
+                      0px 1px rgbs(225,225,225,0.8);
+}
+
+.bar .progress-line span{
+    height: 100%;
+    width: 80%;
+    background-color: #2D5C4C;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+.bar .progress-line.writing span::after{
+    content: "90%";
+}
+
+.bar .progress-line.java span::after{
+    content: "75%";
+}
+
+.bar .progress-line.html span::after{
+    content: "90%";
+}
+
+.bar .progress-line.css span::after{
+    content: "60%";
+}
+
+.bar .progress-line.js span::after{
+    content: "85%";
+}
+
+.bar .progress-line.python span::after{
+    content: "95%";
+}
+
+.bar .progress-line.sql span::after{
+    content: "95%";
+}
+
+.bar .progress-line.program span::after{
+    content: "80%";
+}
+
+.bar .progress-line.react span::after{
+    content: "20%";
+}
+
+.bar .progress-line.devop span::after{
+    content: "40%";
+}
+
+.bar .progress-line span::before{
+    position: absolute;
+    right: 0;
+    top: -10px;;
+    height: 0;
+    width: 0;
+    border:7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+}
+
+.bar .progress-line span::after{
+    position: absolute;
+    content: "80%";
+    right: 0;
+    top: -28px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+
+
+.bar .progress-line.writing span{
+    width: 90%;
+}
+
+.bar .progress-line.java span{
+    width: 75%;
+}
+
+.bar .progress-line.html span{
+    width: 90%;
+}
+
+.bar .progress-line.css span{
+    width: 60%;
+}
+
+.bar .progress-line.js span{
+    width: 85%;
+}
+
+.bar .progress-line.python span{
+    width: 95%;
+}
+
+.bar .progress-line.sql span{
+    width: 95%;
+}
+
+.bar .progress-line.program span{
+    width: 80%;
+}
+
+.bar .progress-line.react span{
+    width: 20%;
+}
+
+.bar .progress-line.devop span{
+    width: 40%;
 }
