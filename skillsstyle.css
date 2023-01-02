@@ -51,7 +51,7 @@ nav ul li a{
     padding-top: 10rem;
     max-width: 42%;
     display: block;
-    float: right;
+    float: left;
 }
 
 html{
@@ -61,6 +61,7 @@ html{
 }
 
 .skills-bar{
+    float: right;
     width: 600px;
     background:rgb(240, 223, 191);
     border-radius: 10px;

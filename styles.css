@@ -61,7 +61,7 @@ h3{
 
 .socials{
      display: inline-block;
-     margin-left: 10rem;
+     margin-left: 5rem;
 }
 
 .socials a{
@@ -85,26 +85,30 @@ h3{
 }
 
 .intro{
+    align-items: center;
     width: 100%;
     min-height: 100vh;
-    padding-top: 15%;
+    padding-top: 12%;
     padding-bottom: 25%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 33%;
+    padding-right: 5%;
     box-sizing: border-box;
     overflow: hidden;
     display: grid;
-    align-items: center;
 }
 
 .button{
     background-color: #2D5C4C;
 color: white;
 padding: .3rem .6rem;
-margin: 40px 2px;
+margin: 20px 2px;
 cursor: pointer;
 }
 button:active{
     background-color: black;
    
+}
+
+.para{
+    padding-right: 90px ;
 }
