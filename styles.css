@@ -61,13 +61,20 @@ h3{
 
 .socials{
      display: inline-block;
-     margin-left: 12rem;
+     margin-left: 10rem;
 }
 
 .socials a{
     margin: 1px 6px;
 }
 
+.fa-github{
+    color: black;
+}
+
+.fa-linkedin{
+    color: #0077b5;
+}
 
 .fa-facebook-f{
     color:  #4267B2;
@@ -77,13 +84,17 @@ h3{
     color: #1DA1F2;
 }
 
-@media (min-width: 700px){
-    .intro{
-        display: block;
-        width: 550px;
-        margin-left: 33rem;
-        margin-top: 12rem;
-    }
+.intro{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
 }
 
 .button{
@@ -91,7 +102,9 @@ h3{
 color: white;
 padding: .3rem .6rem;
 margin: 40px 2px;
+cursor: pointer;
 }
 button:active{
     background-color: black;
+   
 }

@@ -62,7 +62,7 @@ html{
 
 .skills-bar{
     width: 600px;
-    background: #fff;
+    background:rgb(240, 223, 191);
     border-radius: 10px;
     padding: 30px 30px;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
