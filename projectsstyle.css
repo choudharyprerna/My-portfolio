@@ -49,14 +49,64 @@ nav ul li a{
 
 .about{
     padding-top: 9rem;
-    max-width: 35%;
+    max-width: 30%;
     display: block;
     float: left;
 }
 
 .award{
     float: right;
-    padding-top: 200px;
-    padding-right: 10rem;
+    padding-top: 100px;
+    padding-right: 40rem;
+    max-width: 60rem;
+}
+
+.awards{
+    float: right;
+    padding-top: 40px;
+    padding-right: 40.2rem;
+    max-width: 60rem;
+}
+
+.awardss{
+    float: right;
+    padding-top: 50px;
+    padding-right: 48rem;
+    max-width: 60rem;
+}
+
+.awardsss{
+    float: right;
+    padding-top: 50px;
+    padding-right: 34rem;
+    max-width: 60rem;
+}
+
+.awa{
+    float: right;
+    padding-top: 10px;
+    padding-right: 11.3rem;
+    max-width: 60rem;
+}
+
+.awaa{
+    float: right;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    padding-left: 5.2rem;
+    max-width: 60rem;
+}
+
+.awaaa{
+    float: right;
+    padding-top: 10px;
+    padding-right: 8rem;
+    max-width: 60rem;
+}
+
+.awaaaa{
+    float: right;
+    padding-top: 10px;
+    padding-right: 7.3rem;
     max-width: 60rem;
 }
